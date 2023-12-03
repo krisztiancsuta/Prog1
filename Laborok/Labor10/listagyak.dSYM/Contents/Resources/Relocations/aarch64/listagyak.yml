@@ -1,0 +1,17 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Laborok/Labor10/listagyak'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _listabejaras, symObjAddr: 0x0, symBinAddr: 0x100003A30, symSize: 0x74 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _listabejaras, symObjAddr: 0x0, symBinAddr: 0x100003A30, symSize: 0x74 }
+  - { offsetInCU: 0x8F, offset: 0x8F, size: 0x8, addend: 0x0, symName: _pushfront, symObjAddr: 0x74, symBinAddr: 0x100003AA4, symSize: 0x50 }
+  - { offsetInCU: 0xD3, offset: 0xD3, size: 0x8, addend: 0x0, symName: _pushfront2, symObjAddr: 0xC4, symBinAddr: 0x100003AF4, symSize: 0x54 }
+  - { offsetInCU: 0x113, offset: 0x113, size: 0x8, addend: 0x0, symName: _popfront, symObjAddr: 0x118, symBinAddr: 0x100003B48, symSize: 0x54 }
+  - { offsetInCU: 0x149, offset: 0x149, size: 0x8, addend: 0x0, symName: _popfront2, symObjAddr: 0x16C, symBinAddr: 0x100003B9C, symSize: 0x5C }
+  - { offsetInCU: 0x17B, offset: 0x17B, size: 0x8, addend: 0x0, symName: _push2end, symObjAddr: 0x1C8, symBinAddr: 0x100003BF8, symSize: 0x88 }
+  - { offsetInCU: 0x1BF, offset: 0x1BF, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x250, symBinAddr: 0x100003C80, symSize: 0xD4 }
+  - { offsetInCU: 0x21F, offset: 0x21F, size: 0x8, addend: 0x0, symName: _createlist, symObjAddr: 0x324, symBinAddr: 0x100003D54, symSize: 0x50 }
+  - { offsetInCU: 0x255, offset: 0x255, size: 0x8, addend: 0x0, symName: _poplast, symObjAddr: 0x374, symBinAddr: 0x100003DA4, symSize: 0x6C }
+  - { offsetInCU: 0x28B, offset: 0x28B, size: 0x8, addend: 0x0, symName: _swicth, symObjAddr: 0x3E0, symBinAddr: 0x100003E10, symSize: 0x54 }
+  - { offsetInCU: 0x2CF, offset: 0x2CF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x434, symBinAddr: 0x100003E64, symSize: 0x10C }
+...

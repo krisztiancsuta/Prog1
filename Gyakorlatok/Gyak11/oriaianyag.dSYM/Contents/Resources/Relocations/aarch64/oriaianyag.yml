@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Gyak11/oriaianyag'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _filter_by_name, symObjAddr: 0x0, symBinAddr: 0x100003D24, symSize: 0x134 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _filter_by_name, symObjAddr: 0x0, symBinAddr: 0x100003D24, symSize: 0x134 }
+  - { offsetInCU: 0xBE, offset: 0xBE, size: 0x8, addend: 0x0, symName: _isreference, symObjAddr: 0x134, symBinAddr: 0x100003E58, symSize: 0xC8 }
+  - { offsetInCU: 0x11E, offset: 0x11E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1FC, symBinAddr: 0x100003F20, symSize: 0x14 }
+...

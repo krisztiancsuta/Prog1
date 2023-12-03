@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Laborok/Labor11/kocsmak'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _read_pubs, symObjAddr: 0x0, symBinAddr: 0x100003AF4, symSize: 0x1B0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _read_pubs, symObjAddr: 0x0, symBinAddr: 0x100003AF4, symSize: 0x1B0 }
+  - { offsetInCU: 0x191, offset: 0x191, size: 0x8, addend: 0x0, symName: _find_cheapest, symObjAddr: 0x1B0, symBinAddr: 0x100003CA4, symSize: 0x150 }
+  - { offsetInCU: 0x1FF, offset: 0x1FF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x300, symBinAddr: 0x100003DF4, symSize: 0xE0 }
+...

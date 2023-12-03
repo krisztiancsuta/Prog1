@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Labor9/2'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _convertTemperature, symObjAddr: 0x0, symBinAddr: 0x100003AF0, symSize: 0x70 }
+  - { offsetInCU: 0x72, offset: 0x72, size: 0x8, addend: 0x0, symName: _convertTemperature, symObjAddr: 0x0, symBinAddr: 0x100003AF0, symSize: 0x70 }
+  - { offsetInCU: 0xC0, offset: 0xC0, size: 0x8, addend: 0x0, symName: _convertDate, symObjAddr: 0x70, symBinAddr: 0x100003B60, symSize: 0xE0 }
+  - { offsetInCU: 0x154, offset: 0x154, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x150, symBinAddr: 0x100003C40, symSize: 0x238 }
+...

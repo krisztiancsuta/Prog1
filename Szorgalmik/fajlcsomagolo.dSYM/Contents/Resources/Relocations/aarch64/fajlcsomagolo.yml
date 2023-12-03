@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Szorgalmik/fajlcsomagolo'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _copy_info, symObjAddr: 0x0, symBinAddr: 0x1000028B8, symSize: 0x108 }
+  - { offsetInCU: 0x5E, offset: 0x5E, size: 0x8, addend: 0x0, symName: _copy_info, symObjAddr: 0x0, symBinAddr: 0x1000028B8, symSize: 0x108 }
+  - { offsetInCU: 0xB0, offset: 0xB0, size: 0x8, addend: 0x0, symName: _copy_data, symObjAddr: 0x108, symBinAddr: 0x1000029C0, symSize: 0xC8 }
+  - { offsetInCU: 0x12D, offset: 0x12D, size: 0x8, addend: 0x0, symName: _pack, symObjAddr: 0x1D0, symBinAddr: 0x100002A88, symSize: 0x350 }
+  - { offsetInCU: 0x22F, offset: 0x22F, size: 0x8, addend: 0x0, symName: _unit, symObjAddr: 0x520, symBinAddr: 0x100002DD8, symSize: 0x1DC }
+  - { offsetInCU: 0x273, offset: 0x273, size: 0x8, addend: 0x0, symName: _list, symObjAddr: 0x6FC, symBinAddr: 0x100002FB4, symSize: 0x29C }
+  - { offsetInCU: 0x351, offset: 0x351, size: 0x8, addend: 0x0, symName: _dataoffset, symObjAddr: 0x998, symBinAddr: 0x100003250, symSize: 0xF8 }
+  - { offsetInCU: 0x3BF, offset: 0x3BF, size: 0x8, addend: 0x0, symName: _search_file_in_file, symObjAddr: 0xA90, symBinAddr: 0x100003348, symSize: 0x388 }
+  - { offsetInCU: 0x48D, offset: 0x48D, size: 0x8, addend: 0x0, symName: _unpack_file, symObjAddr: 0xE18, symBinAddr: 0x1000036D0, symSize: 0x15C }
+  - { offsetInCU: 0x503, offset: 0x503, size: 0x8, addend: 0x0, symName: _unpack_all, symObjAddr: 0xF74, symBinAddr: 0x10000382C, symSize: 0x228 }
+  - { offsetInCU: 0x5AF, offset: 0x5AF, size: 0x8, addend: 0x0, symName: _printHelp, symObjAddr: 0x119C, symBinAddr: 0x100003A54, symSize: 0x58 }
+  - { offsetInCU: 0x5C5, offset: 0x5C5, size: 0x8, addend: 0x0, symName: _unpack, symObjAddr: 0x11F4, symBinAddr: 0x100003AAC, symSize: 0xB0 }
+  - { offsetInCU: 0x626, offset: 0x626, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x12A4, symBinAddr: 0x100003B5C, symSize: 0x1B0 }
+...

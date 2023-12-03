@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Laborok/Labor12/beszuras'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _new_elem, symObjAddr: 0x0, symBinAddr: 0x100003C0C, symSize: 0x48 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _indent, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xAC, offset: 0xAC, size: 0x8, addend: 0x0, symName: _new_elem, symObjAddr: 0x0, symBinAddr: 0x100003C0C, symSize: 0x48 }
+  - { offsetInCU: 0xE2, offset: 0xE2, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x48, symBinAddr: 0x100003C54, symSize: 0x11C }
+  - { offsetInCU: 0x122, offset: 0x122, size: 0x8, addend: 0x0, symName: _freeTree, symObjAddr: 0x164, symBinAddr: 0x100003D70, symSize: 0x58 }
+  - { offsetInCU: 0x146, offset: 0x146, size: 0x8, addend: 0x0, symName: _printTree, symObjAddr: 0x1BC, symBinAddr: 0x100003DC8, symSize: 0xE0 }
+  - { offsetInCU: 0x186, offset: 0x186, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x29C, symBinAddr: 0x100003EA8, symSize: 0xB0 }
+...

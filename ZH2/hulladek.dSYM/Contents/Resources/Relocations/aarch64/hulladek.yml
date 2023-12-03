@@ -1,0 +1,8 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/ZH2/hulladek'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _atrendez, symObjAddr: 0x0, symBinAddr: 0x100003BF4, symSize: 0x228 }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _atrendez, symObjAddr: 0x0, symBinAddr: 0x100003BF4, symSize: 0x228 }
+  - { offsetInCU: 0x119, offset: 0x119, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x228, symBinAddr: 0x100003E1C, symSize: 0x100 }
+...

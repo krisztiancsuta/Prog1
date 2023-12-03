@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Szorgalmik/myMalloc4'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _own_malloc, symObjAddr: 0x0, symBinAddr: 0x100003740, symSize: 0x13C }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _free_blocks, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x63, offset: 0x63, size: 0x8, addend: 0x0, symName: _memory_arena_start, symBinAddr: 0x100008008, symSize: 0x0 }
+  - { offsetInCU: 0x7E, offset: 0x7E, size: 0x8, addend: 0x0, symName: _own_malloc, symObjAddr: 0x0, symBinAddr: 0x100003740, symSize: 0x13C }
+  - { offsetInCU: 0xFA, offset: 0xFA, size: 0x8, addend: 0x0, symName: _areBorderingBlocks, symObjAddr: 0x13C, symBinAddr: 0x10000387C, symSize: 0x78 }
+  - { offsetInCU: 0x13E, offset: 0x13E, size: 0x8, addend: 0x0, symName: _own_defragment, symObjAddr: 0x1B4, symBinAddr: 0x1000038F4, symSize: 0xC8 }
+  - { offsetInCU: 0x18C, offset: 0x18C, size: 0x8, addend: 0x0, symName: _own_free, symObjAddr: 0x27C, symBinAddr: 0x1000039BC, symSize: 0x1E8 }
+  - { offsetInCU: 0x220, offset: 0x220, size: 0x8, addend: 0x0, symName: _print_memory_state, symObjAddr: 0x464, symBinAddr: 0x100003BA4, symSize: 0x88 }
+  - { offsetInCU: 0x260, offset: 0x260, size: 0x8, addend: 0x0, symName: _run_tests, symObjAddr: 0x4EC, symBinAddr: 0x100003C2C, symSize: 0x140 }
+  - { offsetInCU: 0x2CA, offset: 0x2CA, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x62C, symBinAddr: 0x100003D6C, symSize: 0xA8 }
+...

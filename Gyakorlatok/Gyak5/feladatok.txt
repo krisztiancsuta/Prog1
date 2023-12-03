@@ -1,0 +1,43 @@
+Futóverseny
+Írjunk programot egy futóversenyhez, amely 
+minden induló csapat legjobb versenyzőjének időeredményét írja ki!
+
+A versenyen 50 csapat indul.
+A célba ért futók pontos száma a standard inputon érkezik első adatként.
+Ezután kettesével (szóközzel elválasztva, egész számokkal) érkeznek a 
+célba ért futók adatai. A két adat: a futó csapatának száma (1-től számozzuk őket) és 
+az eredménye másodpercben.
+A programnak ki kell írnia a legjobb eredményt azoknál a csapatoknál, 
+amikből legalább egy futó célba ért.
+
+
+2. feladat
+Ecc, pecc, kimehetsz
+10 óvodás kiszámolóst játszik. Körbeállnak, majd sorban minden n-ediket kiszámolnak a körből, amíg csak egy marad. Írjunk programot, mely n beolvasása után kiírja, hogy milyen sorrendben esnek ki az ovisok a játékból
+
+3. feladat
+Személyi szám utolsó számjegye
+Írjunk programot, mely beolvassa egy személyi szám első 10 számjegyét, majd meghatározza az ellenőrző összeget
+
+A személyi azonosító 11 számjegyből áll:
+
+1 | 2 3 4 5 6 7 | 8 9 10 | 11
+
+M | é é h h n n | s s s | k
+
+M 19xx születési dátumú magyar állampolgárok esetében férfiaknál 1, nőknél 2. 20xx születési dátumú magyar állampolgárok esetében férfiaknál 3, nőknél 4.
+ééhhnn a születési dátum.
+sss az azonos napon születetteket megkülönböztető azonosító.
+k az ellenőrző összeg, melynek számítása
+k = (1*a1 + 2*a2 + 3*a3 + 4*a4 + ... + 10*a10) mod 11
+
+ahol ai a személyi szám i. jegyére utal. 
+1997. jan. 1-jétől módosítottak a számítási módszeren:
+
+k = (10*a1 + 9*a2 + 8*a3 + 7*a4 + ... + 1*a10) mod 11
+
+Az ellenőrző összeg elvileg 10 is lehetne, de ilyen személyi számot nem osztanak ki.
+
+4. feladat
+Fatelep
+Egy fatelepen 8 m hosszú gerendákat tartanak, és azokból 10 fűrészgép vágja le a vevők által kívánt méretű fadarabokat. Írjunk programot, mely a standard bemenetről olvassa a sorban érkező vevői igényeket, és minden igényt arról a fűrészgépről szolgál ki, melynél a legrövidebb olyan munkadarab van, melyből a rendelés még kielégíthető. Ha nincs ilyen, akkor a legrövidebb munkadarabot kidobja selejtnek, helyette új 8 méteres darabot tölt, és abból szolgálja ki a vevőt. A program feladata kiírni a standard outputra, hogy melyik gépnél mennyi selejt keletkezett.
