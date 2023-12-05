@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/krisztiancsuta/Documents/GitHub/Prog1/Laborok/Labor12/fak'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _factorial, symObjAddr: 0x0, symBinAddr: 0x100003DE8, symSize: 0x5C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _factorial, symObjAddr: 0x0, symBinAddr: 0x100003DE8, symSize: 0x5C }
+  - { offsetInCU: 0x69, offset: 0x69, size: 0x8, addend: 0x0, symName: _fibonacci, symObjAddr: 0x5C, symBinAddr: 0x100003E44, symSize: 0x70 }
+  - { offsetInCU: 0x91, offset: 0x91, size: 0x8, addend: 0x0, symName: _print_base_iter, symObjAddr: 0xCC, symBinAddr: 0x100003EB4, symSize: 0xC4 }
+  - { offsetInCU: 0xD1, offset: 0xD1, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x190, symBinAddr: 0x100003F78, symSize: 0x20 }
+...

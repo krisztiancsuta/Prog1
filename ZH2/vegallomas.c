@@ -30,7 +30,7 @@ train *read(char *fname, int *size)
     sscanf(&line[0], "%d", &s);
     *size = s;
 
-    train *tomb = (train *)malloc(sizeof(train));
+    train *tomb = (train *)malloc(s*sizeof(train));
     int i = 0;
     while (fgets(&line[0], 100, fp) != NULL)
     {
@@ -62,7 +62,7 @@ int nterminal(train *tomb, int size)
             }
         }
         
-        if (n % 2 == 0)
+        if (tomb[0].start != 1 && n  % 2 == 0)
         {
             cnt++;
         }
